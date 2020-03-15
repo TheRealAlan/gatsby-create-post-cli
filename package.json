@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-create-post-cli",
+  "version": "0.1.0",
+  "description": "A simple CLI for creating markdown blog posts in Gatsby.",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "create:post": "./bin/create-post.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheRealAlan/gatsby-create-post-cli"
+  },
+  "keywords": [
+    "cli",
+    "gatsby",
+    "gatsby-create-post-cli"
+  ],
+  "author": "TheRealAlan",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "fs-extra": "^8.1.0",
+    "prettier": "^1.19.1",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^5.2.0",
+    "jest": "^25.1.0"
+  }
+}
