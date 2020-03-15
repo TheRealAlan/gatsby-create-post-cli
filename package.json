@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A simple CLI for creating markdown blog posts in Gatsby.",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "test": "jest"
   },
