@@ -25,8 +25,16 @@ gatsby-create-post "Hello World"
 ```
 
 This will create a prefilled markdown file at `src/posts/hello-world/index.md`. This assumes 
-your posts are inside of the `src` directory in a folder called `posts`. The `title`, `date` and `path` frontmatter 
-fields will be prefilled:
+your posts are inside of the `src` directory in a folder called `posts`.
+
+```bash
+├── src
+│   └── posts
+│       └── hello-world
+│           └── index.md
+```
+
+The `title`, `date` and `path` frontmatter fields will be prefilled:
 
 ```markdown
 ---
