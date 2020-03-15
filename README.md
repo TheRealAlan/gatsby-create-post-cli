@@ -24,6 +24,8 @@ All that's needed is a title as a string:
 gatsby-create-post "Hello World"
 ```
 
+<img src="./media/demo.gif" alt="gatsby-create-post" />
+
 This will create a prefilled markdown file at `src/posts/hello-world/index.md`. This assumes 
 your posts are inside of the `src` directory in a folder called `posts`.
 
@@ -46,4 +48,4 @@ path: "/hello-world/"
 
 This is extremely simple and basic, and it can probably be broken easily with certain characters. 
 This also includes no category or tag support. Those can be added to your post manually if you would 
-like, but if you want a similar tool that's much more robust, check out [gatsby-lumen-post-cli](https://github.com/baeharam/gatsby-lumen-post-cli);
+like, but if you want a similar tool that's much more robust, check out [gatsby-lumen-post-cli](https://github.com/baeharam/gatsby-lumen-post-cli).
