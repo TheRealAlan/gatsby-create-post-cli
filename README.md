@@ -25,7 +25,16 @@ gatsby-create-post "Hello World"
 ```
 
 This will create a prefilled markdown file at `src/posts/hello-world/index.md`. This assumes 
-your posts are inside of the `src` directory in a folder called `posts`.
+your posts are inside of the `src` directory in a folder called `posts`. The `title`, `date` and `path` frontmatter 
+fields will be prefilled:
+
+```markdown
+---
+title: "Hello World"
+date: "2020-03-15T17:40:33.725Z"
+path: "/hello-world/"
+---
+```
 
 This is extremely simple and basic, and it can probably be broken easily with certain characters. 
 This also includes no category or tag support. Those can be added to your post manually if you would 
